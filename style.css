@@ -64,7 +64,7 @@ body {
     /* margin: 50px; */
     margin: 0px 100px 0px 100px;
     padding: 50px 0px 50px 0px;
-    /* gap: 200px; */
+    gap: 200px;
     flex: 1;
 }
 
