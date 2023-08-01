@@ -1,6 +1,7 @@
-* {
+html {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Roboto', arial;
+    color: #ffffff;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    color: #f9faf8;
+
     /* display: flex; */
 
     border-bottom: 1px dotted hsla(0, 0%, 100%, 0.2);
@@ -42,12 +43,11 @@ body {
 
 .header-menu > a {
     font-size: 18px;
-    color: #e5e7eb;
+    /* color: #e5e7eb; */
 }
 
 .hero {
     background-color: #1f2937;
-    color: #f9faf8;
     /* margin: 50px; */
     display: flex;
 
@@ -102,7 +102,7 @@ href {
 }
 .hero-container-lefthand > h1 {
     font-size: 48px;
-    color: #f9faf8
+    /* color: #f9faf8 */
 }
 
 .hero-container-image {
@@ -112,7 +112,7 @@ href {
 
 .hero-container-lefthand > p {
     font-size: 18px;
-    color: #e5e7eb;
+    /* color: #e5e7eb; */
 }
 
 .information-container {
@@ -154,7 +154,8 @@ href {
 }
 
 a {
-    color: #e5e7eb;
+    /* color: #e5e7eb; */    
+    color: #ffffff;
     text-decoration: none;
 }
 /* 

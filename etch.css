@@ -1,0 +1,55 @@
+html {
+    font-size: 16px; /* Or any base value you prefer */
+}
+
+/* .header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+p {
+    font-size: 1.2rem; /* 1.2 times the root font size */
+    line-height: 1.6rem; /* 1.6 times the root font size */
+    margin-bottom: 2rem; /* 2 times the root font size */
+    /* text-shadow: 5px 5px white; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.grid {
+    /* border: 1px solid #000000; */
+    /* border-radius: 1rem; */
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box.active {
+    background-color: #008e93;
+}
+
+/* 500 pixels, 50 pixels, = 10 squares
+
+500 / 25 = 20 squares
+
+500, 10 = 50 squares */
+
+img {
+    width: 50px;
+}
+button {
+    margin: 50px;
+}
+footer{
+    font-size: 25px;
+    bottom: 0;
+    padding-top: 50px;
+}
